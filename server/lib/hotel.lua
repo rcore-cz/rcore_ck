@@ -1,4 +1,4 @@
---Bank settings removal
+--Deletes for rcore_hotel
 function deleteHotel(identifier)
     local accounts = MySQL.Sync.fetchAll('SELECT * FROM hotels_rooms WHERE owner=@identifier', {
         ['identifier'] = identifier
@@ -19,7 +19,7 @@ function deleteHotel(identifier)
 end
 
 appendProcess({
-    name = 'Hotel',
+    name = 'hotel',
     process = {
         deleteHotel,
     },

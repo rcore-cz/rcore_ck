@@ -4,7 +4,11 @@ Config.DebugLevel = {
     'INFO',
     'CRITICAL',
 }
-
+Config.AllowedModules = {
+    ['basic'] = true, --basic tables
+    ['vehicles'] = false, --delete from owned_vehicles
+    ['hotel'] = false, --rcore_hotel
+}
 Config.BasicTables = {
     {
         table = 'addon_account_data',

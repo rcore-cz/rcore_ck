@@ -1,4 +1,4 @@
---Bank settings removal
+--Delete all vehicles with job none
 function deleteOwnerVehicles(identifier)
     dbg.info('[VEHICLES] Removing owned_vehicles from owner')
     MySQL.Sync.execute('DELETE FROM owned_vehicles WHERE owner=@identifier AND job=@none', {
@@ -8,7 +8,7 @@ function deleteOwnerVehicles(identifier)
 end
 
 appendProcess({
-    name = 'Vehicles',
+    name = 'vehicles',
     process = {
         deleteOwnerVehicles,
     },

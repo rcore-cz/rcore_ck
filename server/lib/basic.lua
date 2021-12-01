@@ -13,7 +13,7 @@ function deleteAllBasics(identifier)
 end
 
 appendProcess({
-    name = 'Basic tables',
+    name = 'basic',
     process = {
         deleteAllBasics,
     }
