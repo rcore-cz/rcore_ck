@@ -1,5 +1,9 @@
 # rcore_ck
 
+Author: Isigar <info@rcore.cz>
+
+Discord: https://discord.gg/F28PfsY
+
 ### Installation
 
 1) Upload to resources folder
