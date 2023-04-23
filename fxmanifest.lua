@@ -18,10 +18,6 @@ shared_scripts {
     'debug.lua',
 }
 
-dependencies {
-    'rcore'
-}
-
 
 
 
