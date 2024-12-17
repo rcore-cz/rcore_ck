@@ -4,6 +4,8 @@ Author: Isigar <info@rcore.cz>
 
 Discord: https://discord.gg/F28PfsY
 
+# This script is not ready for production use, it can be used as a template for your edited version.
+
 ### Installation
 
 1) Upload to resources folder
